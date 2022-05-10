@@ -57,12 +57,21 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 0.5rem;
 
-button{
+`;
+
+
+
+    interface RadioBoxProps{
+        isActive:boolean;
+    }
+
+
+export const RadioBox = styled.button<RadioBoxProps>`
     height: 4rem;
     border: 1px solid #d7d7d7;
     border-radius: 0.25rem;
 
-    background: transparent;
+    background: ${(props)=> props.isActive ? 'black' : 'transparent'};
 
     display: flex;
     align-items: center;
@@ -75,7 +84,6 @@ button{
         border-color: ${darken(0.1,'#d7d7d7')};
     }
 
-}
 img{
     width: 20px;
     height: 20px;
@@ -87,4 +95,4 @@ span{
     font-size: 1rem;
     color:var(--text-title);
 }
-`;
+`
