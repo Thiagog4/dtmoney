@@ -33,7 +33,19 @@ Tabela de conteúdos
   é um projeto realizado durante o modulo 2 do curso ignite da rocketseat, aonde o usario tem seu controle financeiro
   movimentando as saidas e entradas de seu "Caixa".
 </p>
-### Features
-
+<p id="tabela-de-conteudo">Tabela de conteudo</p>
 - [x] Entrada de valor
 - [x] Saida de valor
+- [x] Resumo de entrada/saida
+
+
+<p id="instalacao">Instalacao</p>
+
+<p>Assim que clonar o projeto no terminal do vscode digite
+yarn
+</p>
+
+<p>Logo apos para o projeto ser executado digite
+yarn start
+</p>
+	
