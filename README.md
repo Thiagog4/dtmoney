@@ -40,12 +40,8 @@ Tabela de conteúdos
 
 
 <p id="instalacao">Instalacao</p>
+-yarn
 
-<p>Assim que clonar o projeto no terminal do vscode digite
-yarn
-</p>
+-yarn start
 
-<p>Logo apos para o projeto ser executado digite
-yarn start
-</p>
 	
